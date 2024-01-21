@@ -1,0 +1,85 @@
+/* element selectors */
+
+body {
+    background: #F5F8FF;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #023047;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0 0 2rem;
+}
+
+p {
+    width: 75%;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+
+}
+
+/* id selectors */
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#controls {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 265px;
+}
+
+#duration {
+    font-size: 5rem;
+    width: 14rem;
+    text-align: center;
+    border: none;
+    background: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#duration:focus-visible {
+    border-radius: 10px;
+    border-color: #ffd97a; /* Change the border color on focus */
+    outline: 2px solid #ffd97a; 
+}
+
+#play-pause {
+    display: flex;
+    justify-content: center;
+}
+
+/* font awesome related */
+
+i {
+    border: none;
+    padding: .5rem;
+}
+
+i.fas {
+    font-size: 4rem;
+    color: #023047;
+    transition: color 0.3s ease;
+}
+
+i.fas:hover {
+    color: #ffb703;
+}
+
+
